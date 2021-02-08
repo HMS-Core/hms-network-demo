@@ -5,9 +5,9 @@
 ## 简介
 本项目包含华为network-url和network-filemanager的示例代码。工程目录如下：
 
-|-- [network-url-sample](https://git.huawei.com/hms/network/NetworkKitSample/tree/master/network-url-sample) url网络请求示例
+|-- [network-url-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-url-sample) url网络请求示例
 
-|-- [network-filemanager-sample](https://git.huawei.com/hms/network/NetworkKitSample/tree/master/network-filemanager-sample) 文件上传下载请求示例
+|-- [network-filemanager-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-filemanager-sample) 文件上传下载请求示例
 
 ## 注意事项
  1. 推荐Android SDK版本号为19或以上，JDK版本号为1.8或以上。
@@ -26,4 +26,4 @@
 - 开发过程遇到问题上[Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services)，在[huawei-mobile-services]标签下提问，有华为研发专家在线一对一解决您的问题。
 - 到[华为开发者论坛](https://developer.huawei.com/consumer/cn/forum/blockdisplay?fid=18) HMS Core板块与其他开发者进行交流。
 
-如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/NetworkKitSample/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/NetworkKitSample/pulls)。
+如果您在尝试示例代码中遇到问题，请向仓库提交[issue](https://github.com/HMS-Core/hms-network-demo/issues)，也欢迎您提交[Pull Request](https://github.com/HMS-Core/hms-network-demo/pulls)。
