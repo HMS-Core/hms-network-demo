@@ -29,7 +29,7 @@ English |[中文](./README-zh.md)
    <img src="images/result.jpg" width=30% height = 30%>
 
 ## Technical Support
-You can visit the [Reddit community] (https://www.reddit.com/r/HuaweiDevelopers/) to learn latest information about HMS Core and communicate with other developers. 
+You can visit the [Reddit community](https://www.reddit.com/r/HuaweiDevelopers/) to learn latest information about HMS Core and communicate with other developers. 
 
 If you have any questions about the sample code, try the following:
 - Visit
@@ -42,8 +42,8 @@ If you have any questions about the sample code, try the following:
   and communicate with other developers.
 
 If you encounter any issues when using the sample code, submit your
-[issues](https://github.com/HMS-Core/NetworkKitSample/issues) or submit
-a [pull request] (https://github.com/HMS-Core/NetworkKitSample/pulls).
+[issues](https://github.com/HMS-Core/hms-network-demo/issues) or submit
+a [pull request](https://github.com/HMS-Core/hms-network-demo/pulls).
 
 
 ## License
