@@ -1,6 +1,6 @@
 # Sample code for network-filemanager-sample
 
-English | [中文](https://git.huawei.com/hms/network/NetworkKitSample/blob/master/network-filemanager-sample/README-zh.md)
+English | [中文](./README-zh.md)
 # Contents
 
  * [Introduction](#introduction)
@@ -35,7 +35,7 @@ If you have any questions about the sample code, try the following:
 - Visit [Stack Overflow](https://stackoverflow.com/questions/tagged/huawei-mobile-services) and submit your development problem under the `huawei-mobile-services` tag. Huawei experts will help you solve the problem in one-to-one mode.
 - Visit the HMS Core section in the [Huawei Developer Forum](https://forums.developer.huawei.com/forumPortal/en/forum/hms-core) and communicate with other developers.
 
-If you encounter any issues when using the sample code, submit your [issues](https://github.com/HMS-Core/NetworkKitSample/issues) or submit a [pull request](https://github.com/HMS-Core/NetworkKitSample/pulls).
+If you encounter any issues when using the sample code, submit your [issues](https://github.com/HMS-Core/hms-network-demo/issues) or submit a [pull request](https://github.com/HMS-Core/hms-network-demo/pulls).
 
 ## License
    The sample code is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
