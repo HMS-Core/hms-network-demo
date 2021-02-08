@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NetworkFilemanager</string>
+
+    <string name="filepath1">/sdcard/tmpuploadfile/filetxt</string>
+    <string name="filepath2">/sdcard/tmpuploadfile/filelog</string>
+</resources>

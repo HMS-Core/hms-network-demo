@@ -1,0 +1,35 @@
+plugins {
+    id 'com.android.application'
+}
+
+def networkkit_filemanager_sdk_version = "4.0.6.301"
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+
+    defaultConfig {
+        applicationId "com.huawei.hms.network.filemanager.sample"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation "com.huawei.hms:filemanager:${networkkit_filemanager_sdk_version}"
+}

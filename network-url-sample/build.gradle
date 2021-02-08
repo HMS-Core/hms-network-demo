@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+
+def networkkit_sdk_version = "5.0.1.300"
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
+    defaultConfig {
+        applicationId "com.huawei.hms.network.url.sample"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        defaultConfig {
+            // 这里添加
+            multiDexEnabled true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+
+    implementation "com.huawei.hms:network-embedded:${networkkit_sdk_version}"
+    implementation "com.android.support:multidex:1.0.3"
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+
+}
