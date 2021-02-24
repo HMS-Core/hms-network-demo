@@ -5,9 +5,9 @@ English | [中文](./README-zh.md)
 ## Introduction
 This project contains the sample code for network-url and network-filemanager of HUAWEI Network Kit. The project directory is as follows:
 
-|-- [network-url-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-url-sample) URL network request example
+|-- [network-url-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-url-sample) URL network request sample
 
-|-- [network-filemanager-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-filemanager-sample) File upload and download request example
+|-- [network-filemanager-sample](https://github.com/HMS-Core/hms-network-demo/tree/main/network-filemanager-sample) File upload and download request sample
 
 ## Precautions
  1. It is recommended that the Android SDK version be 19 or later, and the JDK version be 1.8 or later.
