@@ -176,9 +176,9 @@ public class DownloadEngine extends AUpDownloadEngine {
         httpParams.put("param2", "value2");
 
         // replace the url
-        String normalUrl = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201107%2F26%2F170043tku646m53pvsfcpf.jpg&refer=http%3A%2F%2Fattach.bbs.miui.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1614866148&t=e577a2397076167e555e0eb209b16324";
+        String normalUrl =  "http://gdown.baidu.com/data/wisegame/10a3a64384979a46/ee3710a3a64384979a46542316df73d4.apk";
         // replace the path to store the file
-        String downloadFilePath = context.getExternalCacheDir().getPath() + File.separator + "test.jpg";
+        String downloadFilePath = context.getExternalCacheDir().getPath() + File.separator + "test.apk";
         getRequest = DownloadManager.newGetRequestBuilder()
                 .headers(httpHeader)
                 .params(httpParams)
