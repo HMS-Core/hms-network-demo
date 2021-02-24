@@ -11,7 +11,7 @@
 
 ## 注意事项
  1. 推荐Android SDK版本号为19或以上，JDK版本号为1.8或以上。
- 2. 该版本使用了Java 8的新特性：如Lambda 表达式、静态接口方法等。该版本及以后的版本均需要为Gradle添加Java 8的编译环境约束，否则会降级至UrlConnection发请求，导致诸多请求能力会受限，Gradle添加Java 8编译配置如下：
+ 2. 该版本使用了Java 8的新特性：如Lambda 表达式、静态接口方法等。该版本及以后的版本均需要为Gradle添加Java 8的编译环境约束，否则会降级至UrlConnection发请求，导致诸多请求能力受限，Gradle添加Java 8编译配置如下：
 ```
    compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
