@@ -121,7 +121,7 @@ public class RestClientSample {
     /**
      * Use RestClient (annotation mode) to send a synchronous request.
      */
-    public void annoExcute() {
+    public void annoExecute() {
         new Thread(new Runnable() {
             @Override
             public void run() {
@@ -148,7 +148,7 @@ public class RestClientSample {
     /**
      * Use an API object with the @QueryMap annotation to send a synchronous request.
      */
-    public void annoQueryExcute() {
+    public void annoQueryExecute() {
         new Thread(new Runnable() {
             @Override
             public void run() {
