@@ -74,9 +74,9 @@ public class MainActivity extends Activity implements View.OnClickListener, Even
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        findViewById(R.id.btn_httpclient_excute).setOnClickListener(this);
+        findViewById(R.id.btn_httpclient_execute).setOnClickListener(this);
         findViewById(R.id.btn_httpclient_enqueue).setOnClickListener(this);
-        findViewById(R.id.btn_restclient_excute).setOnClickListener(this);
+        findViewById(R.id.btn_restclient_execute).setOnClickListener(this);
         findViewById(R.id.btn_restclient_enqueue).setOnClickListener(this);
 
         callText = findViewById(R.id.call_text);
@@ -90,20 +90,20 @@ public class MainActivity extends Activity implements View.OnClickListener, Even
         // Initiate a request using either the RestClient (annotation mode) or HttpClient mode.
         Log.i(TAG, "RestClientSample view onClick");
         switch (view.getId()) {
-            case R.id.btn_httpclient_excute:
-                title = "httpclient_excute";
+            case R.id.btn_httpclient_execute:
+                title = "httpclient_execute";
                 httpClientExecute();
-                Log.i(TAG, "RestClientSample btn_httpclient_excute");
+                Log.i(TAG, "RestClientSample btn_httpclient_execute");
                 break;
             case R.id.btn_httpclient_enqueue:
                 title = "httpclient_enqueue";
                 httpClientEnqueue();
                 Log.i(TAG, "RestClientSample btn_httpclient_enqueue");
                 break;
-            case R.id.btn_restclient_excute:
-                title = "annotation_excute";
-                restClientAnnoExcute();
-                Log.i(TAG, "RestClientSample btn_restclient_excute");
+            case R.id.btn_restclient_execute:
+                title = "annotation_execute";
+                restClientAnnoExecute();
+                Log.i(TAG, "RestClientSample btn_restclient_execute");
                 break;
             case R.id.btn_restclient_enqueue:
                 title = "annotation_enqueue";
@@ -116,19 +116,19 @@ public class MainActivity extends Activity implements View.OnClickListener, Even
 
     private void httpClientExecute() {
         if(httpClientSample != null){
-            httpClientSample.httpclientExecute();
+            httpClientSample.httpClientExecute();
         }
     }
 
     private void httpClientEnqueue() {
         if(httpClientSample != null){
-            httpClientSample.httpclientEnqueue();
+            httpClientSample.httpClientEnqueue();
         }
     }
 
-    private void restClientAnnoExcute() {
+    private void restClientAnnoExecute() {
         if(restClientSample != null) {
-            restClientSample.annoExcute();
+            restClientSample.annoExecute();
         }
     }
 
