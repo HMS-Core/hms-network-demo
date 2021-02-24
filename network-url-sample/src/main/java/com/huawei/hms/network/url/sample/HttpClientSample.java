@@ -155,7 +155,7 @@ public class HttpClientSample {
     /**
      * Use HttpClient to send a synchronous request.
      */
-    public void httpclientExecute() {
+    public void httpClientExecute() {
 
         new Thread(new Runnable() {
             @Override
@@ -176,7 +176,7 @@ public class HttpClientSample {
     /**
      * Use HttpClient to send an asynchronous request.
      */
-    public void httpclientEnqueue() {
+    public void httpClientEnqueue() {
         Submit<ResponseBody> submit = httpClient.newSubmit(request);
         submit.enqueue(callback);
     }
