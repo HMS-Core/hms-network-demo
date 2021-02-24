@@ -3,6 +3,7 @@ plugins {
 }
 
 def networkkit_filemanager_sdk_version = "4.0.6.301"
+def stats_sdk_version = "5.1.0.300"
 
 android {
     compileSdkVersion 29
@@ -32,4 +33,5 @@ android {
 
 dependencies {
     implementation "com.huawei.hms:filemanager:${networkkit_filemanager_sdk_version}"
+    implementation "com.huawei.hms:stats:${stats_sdk_version}"
 }
