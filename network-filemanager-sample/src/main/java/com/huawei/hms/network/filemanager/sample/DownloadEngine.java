@@ -176,7 +176,7 @@ public class DownloadEngine extends AUpDownloadEngine {
         httpParams.put("param2", "value2");
 
         // replace the url
-        String normalUrl =  "http://gdown.baidu.com/data/wisegame/10a3a64384979a46/ee3710a3a64384979a46542316df73d4.apk";
+        String normalUrl =  "https://gdown.baidu.com/data/wisegame/10a3a64384979a46/ee3710a3a64384979a46542316df73d4.apk";
         // replace the path to store the file
         String downloadFilePath = context.getExternalCacheDir().getPath() + File.separator + "test.apk";
         getRequest = DownloadManager.newGetRequestBuilder()
