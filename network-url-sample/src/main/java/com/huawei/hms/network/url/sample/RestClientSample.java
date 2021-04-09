@@ -16,10 +16,8 @@
 
 package com.huawei.hms.network.url.sample;
 
-import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
-import android.widget.TextView;
 
 import com.huawei.hms.network.httpclient.Callback;
 import com.huawei.hms.network.httpclient.HttpClient;
