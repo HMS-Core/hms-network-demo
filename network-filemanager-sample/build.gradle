@@ -2,7 +2,7 @@ plugins {
     id 'com.android.application'
 }
 
-def networkkit_filemanager_sdk_version = "5.0.2.300"
+def networkkit_filemanager_sdk_version = "5.0.4.300"
 def stats_sdk_version = "5.1.0.300"
 
 android {
