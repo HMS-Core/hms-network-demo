@@ -30,8 +30,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.huawei.sample.R;
-
 /**
  * Upload and download demo UIs.
  *
@@ -149,6 +147,12 @@ public class MainActivity extends Activity implements AUpDownloadEngine.EventLis
 
     @Override
     public void onSuccess(String message) {
-        showMessage("success->" + message, Color.GREEN);
+        try {
+            showMessage("onProgress:" + 100);
+            Thread.sleep(200);
+            showMessage("success->" + message, Color.GREEN);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }

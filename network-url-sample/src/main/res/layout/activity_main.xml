@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/httpExcute" />
+        android:text="@string/httpExecute" />
 
     <Button
         android:id="@+id/btn_httpclient_enqueue"
@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/restClientExcute" />
+        android:text="@string/restClientExecute" />
 
     <Button
         android:id="@+id/btn_restclient_enqueue"

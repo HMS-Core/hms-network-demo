@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 
-def networkkit_sdk_version = "5.0.4.300"
+def networkkit_sdk_version = "6.0.0.300"
 
 android {
     compileSdkVersion 29

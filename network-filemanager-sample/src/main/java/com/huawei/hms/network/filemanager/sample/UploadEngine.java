@@ -30,7 +30,6 @@ import com.huawei.hms.network.file.upload.api.BodyRequest;
 import com.huawei.hms.network.file.upload.api.FileEntity;
 import com.huawei.hms.network.file.upload.api.FileUploadCallback;
 import com.huawei.hms.network.file.upload.api.UploadManager;
-import com.huawei.sample.R;
 
 import java.io.Closeable;
 import java.io.File;

@@ -27,8 +27,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.huawei.hms.network.sample.R;
-
 /**
  * Load the corresponding request button on the app screen.
  *
