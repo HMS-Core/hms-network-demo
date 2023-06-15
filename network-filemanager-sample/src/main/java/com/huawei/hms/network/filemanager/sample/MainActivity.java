@@ -149,7 +149,6 @@ public class MainActivity extends Activity implements AUpDownloadEngine.EventLis
     public void onSuccess(String message) {
         try {
             showMessage("onProgress:" + 100);
-            Thread.sleep(200);
             showMessage("success->" + message, Color.GREEN);
         } catch (InterruptedException e) {
             e.printStackTrace();
